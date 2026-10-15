@@ -1,0 +1,31 @@
+:root {
+  --bg: #090a0c;
+  --panel: #14171b;
+  --line: #3b444d;
+  --text: #f5f7f8;
+  --muted: #a1aab4;
+  --amber: #ff9f1c;
+  --green: #63f5b0;
+  --violet: #ff7a18;
+  --pink: #ff5c35;
+}
+
+body { background: var(--bg); }
+.hero:before { background: radial-gradient(ellipse at 50% 42%, #ff9f1c22, transparent 65%), radial-gradient(ellipse at 80% 15%, #ff5c351c, transparent 45%); }
+.button { background: var(--amber); border-color: var(--amber); color: #11100c; box-shadow: 0 0 24px #ff9f1c2b; }
+.button:hover { background: #ffc15c; }
+.button.secondary { color: var(--amber); background: transparent; }
+.brand small, nav a:hover, .text-link:hover, .eyebrow, .amber, .release-links, .release-body a { color: var(--amber); }
+.app-preview { border-color: #76511f; box-shadow: 0 0 0 5px #ff9f1c12, 0 32px 100px #000b, 0 0 70px #ff9f1c18; }
+.window-dot { background: var(--pink); box-shadow: 0 0 12px #ff4fd8; }
+.mock-sidebar { background: #0b1020; }
+.mock-sidebar small, .mock-sidebar .selected { color: var(--amber); }
+.mock-sidebar .selected { background: #3a2a17; }
+.mock-hero { background: repeating-linear-gradient(120deg, transparent 0 20px, #ff9f1c09 20px 30px), var(--panel); }
+.mock-button { background: var(--violet); color: #11100c; }
+.feature { background: linear-gradient(140deg, #1c2025, #101214); }
+.feature:hover { border-color: var(--violet); }
+.feature-icon { color: var(--amber); border-color: #4055a0; background: #00d9ff0a; }
+.download-panel { border-color: #76511f; background: radial-gradient(ellipse at 0 0, #ff9f1c17, transparent 65%), var(--panel); }
+.access code { color: var(--amber); }
+.skip { background: var(--amber); }
